@@ -1,0 +1,221 @@
+body{
+    width: 100%;
+    display: flex;
+    background-color: hsl(0,0%,90%);
+    gap: 30px;
+    margin: 0;
+}
+html{
+}
+
+nav{
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 78px;
+}
+.icon img{
+    width: 24px;
+    height: 24px;
+}
+.nav .icon{
+    height: 58px;
+}
+nav ul{
+    padding-left: 0px;
+    margin-top: 159px;
+    list-style: none;
+}
+
+main{
+
+    padding: 0px 30px 0px 92px;
+}
+main .headBackGround{
+    display: block;
+    width: 100%;
+}
+p{
+    margin:0;
+    font-size: 16px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    margin: 32px 0px 32px 0px;
+}
+header .icon{
+    border-radius: 8px;
+}
+.search .iconl{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.search input{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+h2{
+    margin: 0px 0px 12px 0px;
+    font-size: 24px;
+}
+header .icon, .iconl{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+}
+
+header .right{
+    width: 498px;
+    height: 52px;
+    gap: 20px;
+}
+
+.search{
+    width: 354px;
+    height: 52px;
+
+}
+.search input{
+    width: calc(100% - 52px);
+}
+
+.left{
+    margin:0px auto 0px 0px;
+    
+}
+.right{
+    margin: 0px 0px 0px auto;
+}
+.right input{
+    border: 0px;
+}
+.container{
+    background-color: white;
+    padding: 32px 32px 71px 32px;
+}
+.horizontal{
+    display: flex;
+}
+.block2 .horizontal{
+    width: 100%;
+}
+
+.block2{
+    margin-top: 30px;
+}
+.block3{
+    margin-top: 32px;
+}
+.block1 button{
+    width: 93px;
+    height: 44px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+}
+.block1 .left{
+    gap:24px 6pxs;
+    
+}
+
+.iconPcenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.block1 .mainText{
+    font-size: 24px;
+}
+.block1 .horizontal{
+    column-gap: 24px;
+}
+.horizontal .iconPcenter{
+    row-gap: 6px;
+}
+.block3 .horizontal{
+    width: 100%;
+    column-gap: 30px;
+
+}
+li{
+    width:100%;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block1{
+    display:flex;
+}
+.block2{
+    display: flex;
+    flex-wrap: wrap;
+    gap:32px;
+}
+.block2 div{
+    flex: 0 0 calc(50% - 16px);
+}
+
+.block2 input, select{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 0px;
+    height: 52px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.block2 .mainText{
+    font-size: 20px;
+}
+.icon, .iconl{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.block3 .icon{
+    width:50px;
+    height:50px;
+    background-color: #ecf3fe;
+    border-radius: 50px;
+    
+}
+.block3 h3{
+    font-size: 18px;
+}
+h3{
+     margin: 0;
+}
+
+.block3 button{
+    border: 0px;
+    border-radius: 8px;
+    background-color: #ecf3fe;
+    color:#4182f9;
+    width: 209px;
+    height: 44px;
+}
+
+
+.block1 .mainText{
+    font-weight: bold;
+}
+.note{
+    color: hsl(0,0%,50%)
+}
+select:invalid { 
+    color: gray; 
+}
