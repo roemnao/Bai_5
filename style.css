@@ -61,6 +61,8 @@ header .icon{
 h2{
     margin: 0px 0px 12px 0px;
     font-size: 24px;
+    color: #3E435D;
+;
 }
 header .icon, .iconl{
     width: 52px;
@@ -213,6 +215,7 @@ h3{
 .block1 .mainText{
     font-weight: bold;
 }
+
 .note{
     color: hsl(0,0%,50%)
 }
