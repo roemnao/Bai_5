@@ -22,6 +22,7 @@ nav{
 nav ul{
     padding-left: 0px;
     margin-top: 159px;
+    margin-bottom: 0px;
     list-style: none;
     display: flex;
     flex-direction: column;
