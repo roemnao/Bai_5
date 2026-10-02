@@ -1,7 +1,7 @@
 body{
     width: 100%;
     display: flex;
-    background-color: hsl(0,0%,90%);
+    background-color: #f9f9f9;
     gap: 30px;
     margin: 0;
 }
@@ -39,6 +39,8 @@ main{
 main .headBackGround{
     height: 100px;
     background: linear-gradient(to right, #b6d3f1, #fdf7e1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 p{
     margin:0;
@@ -128,7 +130,7 @@ header .right{
     height: 44px;
     border: 0px;
     border-radius: 8px;
-    background-color: blue;
+    background-color: rgba(65, 130, 249, 1);
     color: white;
     align-items: center;
 }
@@ -190,6 +192,7 @@ li{
     box-sizing: border-box;
     padding-left: 20px;
     font-size: 16px;
+    color:rgba(0, 0, 0, 1);
 }
 .block2 .mainText{
     font-size: 20px;
@@ -234,7 +237,7 @@ h3{
 }
 
 .note{
-    color: hsl(0,0%,50%)
+    color: rgba(173, 167, 167, 1)
 }
 select:invalid { 
     color: gray; 
