@@ -219,6 +219,7 @@ li{
 }
 .block3 h3{
     font-size: 18px;
+    font-weight: 500;
 }
 h3{
      margin: 0;
@@ -235,7 +236,7 @@ h3{
 
 
 .block1 .mainText{
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .note{
