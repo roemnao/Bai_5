@@ -19,6 +19,9 @@ nav{
 .nav .icon{
     height: 58px;
 }
+.fixopacity{
+    opacity: 0.13;
+}
 nav ul{
     padding-left: 0px;
     margin-top: 159px;
