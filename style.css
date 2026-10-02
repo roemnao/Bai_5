@@ -65,6 +65,7 @@ header .icon{
 .search input{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    font-weight: 400;
 }
 
 h2{
